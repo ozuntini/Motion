@@ -10,7 +10,7 @@ const int shutterTriggerPin = 13;
 //define moving Length maximum
 const int movingLengthMax = 1000;	//longueur maximum du déplacement à adapter en fonction du slider
 //step to mm conversion factor
-const int step2mmConvFactor = 5;	// 5 steps for 1mm
+const int stepTommConvFactor = 5;	//x steps for 1mm
 
 //	Define config variable
 int movingLength = movingLengthMax; //longueur du déplacement en mm
@@ -38,9 +38,12 @@ void setup() {
 		Serial.print("Direction : ");
 		Serial.println(directionMotor);
 	//
+
+	
 }
 
 void loop() {
+
 
 
 }
